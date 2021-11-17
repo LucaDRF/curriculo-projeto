@@ -1,8 +1,8 @@
 const fieldLocation = {
     home: 0,
     sobre: 220,
-    habilidades: 1400,
-    experiencia: 2800,
+    habilidades: 1360,
+    experiencia: 2760,
     fale: 4000
 }
 
