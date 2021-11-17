@@ -1,0 +1,90 @@
+body {
+    background-color: #e0e0e0;
+}
+
+.navbar {
+    justify-content: space-around;
+}
+
+.btn {
+    font-size: 1.1rem;
+    padding: 28px 29px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.btn:hover {
+    background-color: rgb(149, 149, 165);
+}
+
+.inline-text {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.inline-text p {
+    cursor: pointer;
+}
+
+#subtitulo {
+    margin-left: 100px;
+}
+
+#sobre{
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.rounded.float-start.perfil {
+    height: 850px;
+}
+
+.box {
+    background-color: rgba(21, 21, 187, 0.226);
+    display: flex;
+    width: 800px;
+    height: 400px;
+    flex-direction: column;
+    border-radius: 20px;
+    padding: 40px;
+    margin-bottom: 30px;
+}
+
+#boxes {
+    display: flex;
+    flex-direction: column;
+}
+
+.field-text {
+    margin-top: 200px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+}
+
+.field-text.sobre {
+    margin-top: 150px;
+}
+
+#habilidades {
+    display: flex;
+    width: 75%;
+    flex-direction: column;
+    margin-left: 200px;
+}
+
+#contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 200px;
+}
+
+#wppForm {
+    width: 500px;
+}
+
+#sobreText {
+    font-size: 20px;
+}
