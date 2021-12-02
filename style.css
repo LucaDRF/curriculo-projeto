@@ -85,6 +85,27 @@ body {
     width: 500px;
 }
 
-#sobreText {
+.sobreText {
     font-size: 20px;
 }
+
+#load {
+    position: fixed;
+    display: block;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(131, 126, 126);
+ }
+
+ #imgLoad {
+     width: 10%;
+     margin-top: 100px;
+     margin-left: 850px;
+ }
+
+ #none {
+     display: none;
+ }
